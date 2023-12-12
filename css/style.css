@@ -7698,3 +7698,30 @@ a:hover {
     padding: 16px;
     background: #e5e5e5;
 }
+   /* Style for the container */
+        .expanding-text-container {
+            max-width: 400px;
+			background-color: #079db8;
+			border-radius: 10px; /* Rounded corners */
+            overflow: auto;
+            transition: max-height 0.3s ease; /* Smooth transition for max-height change */
+			max-height: 20px; /* Initially hide the text */
+        }
+
+        /* Style for the expanded text */
+        .expanding-text {
+            max-height: 1000px; /* Set a large enough value to allow for expansion */
+            transition: max-height 0.3s ease; /* Smooth transition for max-height change */
+			overflow: auto;
+            font-size: 16px; /* Adjust the font size as needed */
+            line-height: 1.5;
+            border: 1px solid #ccc;
+            padding: 1px;
+        }
+
+        /* Style for the focus effect */
+        .expanding-text:focus {
+            outline: none;
+            border: 2px solid #079db8; /* Border color when focused */
+			border-radius: 10px; /* Rounded corners */
+        }
