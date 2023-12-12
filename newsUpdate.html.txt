@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Company News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        article {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AptCrae.ai in News</h1>
+    </header>
+
+    <section>
+        <article>
+            <h2>Exciting Announcement</h2>
+            <p>We are partnering with US top hospital chains in Q1.</p>
+            <p>Published on: December 12, 2023</p>
+        </article>
+
+        <article>
+            <h2>New Partnership</h2>
+            <p>Our Partnership with Top Hospital Chain in USA.</p>
+            <p>Published on: December 3, 2023</p>
+        </article>
+
+        <!-- Add more articles as needed -->
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Healthcare Company. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
